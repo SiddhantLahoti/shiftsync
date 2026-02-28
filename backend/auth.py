@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from passlib.context import CryptContext
 from fastapi import HTTPException, Security
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-
+# Dummy comment
 # 1. Load the variables from the .env file
 load_dotenv()
 
