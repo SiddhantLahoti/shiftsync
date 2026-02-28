@@ -5,11 +5,12 @@ from datetime import datetime, timedelta
 from passlib.context import CryptContext
 from fastapi import HTTPException, Security
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-# Dummy comment
+# Dummy comment v2
 # 1. Load the variables from the .env file
 load_dotenv()
 
-# 2. Fetch the key securely. The second argument is a fallback.
+# 2. Fetch the key securely.
+# The second argument is a fallback.
 SECRET_KEY = os.getenv("SECRET_KEY", "fallback-key")
 ALGORITHM = "HS256"
 
